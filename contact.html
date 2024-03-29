@@ -54,21 +54,49 @@
       <h6>Est. 2024</h2>
     </div>
     <div class="container my-5">
-      <h1>Peru meets Miami!</h1>
+      <h1>Contact Us</h1>
       <hr class="col-1 my-4">
       <div class="col-lg-8 ">
-        <p class="fs-5">Raul grew up in Cuzco, Peru where he and his family 
-          would harvest fresh ingredients to cook in ovens made from mother earth. 
-          These ovens were made with clay and hot coals and the ingredients were 
-          wrapped and baked for thirty to fourty minutes. This process developed a 
-          natural oak taste that brought everything to perfection. What was created 
-          in those childhood clay oven days has lived with Raul as he came to America 
-          and hence has created an infusion of Peruvian and American ingredients to 
-          leave one with this same lifetime of memories to carry on. Please view 
-          our menu and join us in making your memories too!</p>
-        <hr class="col-1 my-4">
-        <!-- add social media links here -->
-      </div>
+        <form class="row g-3">
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServer01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationServer01">
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationServer02">
+          </div>
+          
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+
+
+          <div class="col-md-6">
+            <label for="validationServer03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationServer03" aria-describedby="validationServer03Feedback">
+          </div>
+          <div class="col-md-6">
+            <label for="validationServer03" class="form-label">State</label>
+            <input type="text" class="form-control" id="validationServer03" aria-describedby="validationServer03Feedback">
+          </div>
+          <div class="col-md-3">
+            <label for="validationServer05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback">
+          </div>
+          <div class="col-12">
+            <button class="btn btn-secondary" type="submit" href="index.html">Submit form</button>
+          </div>
+        </form>
     </div>
   </body>
 </html>
